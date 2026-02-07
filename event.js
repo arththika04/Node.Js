@@ -3,3 +3,4 @@ const emitter = new EventEmitter();
 emitter.on("login", () => {
     console.log("User logged in");
 });
+emitter.emit("login");
